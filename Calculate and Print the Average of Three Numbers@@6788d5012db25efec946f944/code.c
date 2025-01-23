@@ -4,7 +4,7 @@ int main(){
     printf("Enter values:");
     scanf("%d %d %d", &a, &b, &c);
     int sum=a+b+c;
-    int average=sum/3;
-    printf("output is:%d\n",average);
+    float average=sum/3;
+    printf("output is:%f\n",average);
     return 0; 
 }   
