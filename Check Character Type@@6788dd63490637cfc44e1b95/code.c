@@ -7,14 +7,14 @@ int main(){
     }
     else if(chh>='A'&& chh<='Z')||(chh>='a' && chh<='z'){
        if(chh=='a'||chh=='e'||chh=='i'||chh=='o'||chh=='u'||chh=='A'||chh=='I'||chh=='O'||chh=='E'||chh=='U'){
-        printf("Vowel");
+        printf("Vowel\n");
        }
        else{
-        printf("Consonant");
+        printf("Consonant\n");
        }
     }
     else{
-        printf("Special Character");
+        printf("Special Character\n");
     }
     return 0;
 }
