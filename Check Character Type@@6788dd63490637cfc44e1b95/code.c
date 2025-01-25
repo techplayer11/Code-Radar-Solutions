@@ -2,7 +2,7 @@
 int main(){
     char chh;
     scanf("%c",&chh);
-    if(chh>=0 || chh<=0){
+    if(chh>=0 || chh<=9){
         printf("Digit\n");
     }
     else if(chh>='A'&& chh<='Z')||(chh>='a' && chh<='z'){
