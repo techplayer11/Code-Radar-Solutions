@@ -7,8 +7,11 @@ int main(){
     if(amount<Transaction){
         printf("Profit");
     }
-    else{
+    else if(amount>Transaction){
         printf("Loss");
+    }
+    else{
+        printf("No Loss");
     }
     return 0;
 }
