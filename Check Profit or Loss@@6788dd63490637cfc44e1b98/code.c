@@ -10,7 +10,7 @@ int main(){
     else if(amount>Transaction){
         printf("Loss");
     }
-    else{
+    else if(amount=Transaction){
         printf("No Loss");
     }
     return 0;
