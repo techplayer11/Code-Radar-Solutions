@@ -3,19 +3,19 @@ int main(){
     int a,b;
     char c;
     scanf("%d %d %c",&a,&b,&c);
-    if(c=="+"){
+    if(c=='+'){
         int result=a+b;
         printf("%d",result);
     }
-    else if(c=="-"){
+    else if(c=='-'){
         int difference=a-b;
         printf("%d",difference);
     }
-    else if(c=="*"){
+    else if(c=='*'){
         int product=a*b;
         printf("%d",product);
     }
-    else if(c=="/"){
+    else if(c=='/'){
         if (b!=0){
         int Division=a/b;
         printf("%d",Division);
