@@ -6,10 +6,13 @@ int main(){
         printf("31");
     }
     else if(b==2){
+        printf("28");
+    }
+    else if(c==3){
         printf("30");
     }
     else{
-        printf("28");
+        printf("Invalid month")
     }
     return 0;
 }
