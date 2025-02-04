@@ -5,19 +5,19 @@ int main(){
     scanf("%d %d",&a,&b);
     scanf("%c",&c);
     if(c=="+"){
-        result=a+b;
+        int result=a+b;
         printf("%d\n",result);
     }
     else if(c=="-"){
-        difference=a-b;
+        int difference=a-b;
         printf("%d\n",difference);
     }
     else if(c=="*"){
-        product=a*b;
+        int product=a*b;
         printf("%d\n",product);
     }
     else if(c=="/"){
-        Division=a/b;
+        int Division=a/b;
         printf("%d\n",Division);
     }
     else{
