@@ -7,15 +7,15 @@ int main(){
         int result=a+b;
         printf("%d\n",result);
     }
-    else if(c=="-"){
+    else if(c="-"){
         int difference=a-b;
         printf("%d\n",difference);
     }
-    else if(c=="*"){
+    else if(c="*"){
         int product=a*b;
         printf("%d\n",product);
     }
-    else if(c=="/"){
+    else if(c="/"){
         if (b!=0){
         int Division=a/b;
         printf("%d\n",Division);
