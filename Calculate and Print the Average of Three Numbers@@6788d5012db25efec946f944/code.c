@@ -5,6 +5,6 @@ int main(){
     scanf("%d %d %d", &a, &b, &c);
     int sum=a+b+c;
     float average=sum/3;
-    printf("output is:%f\n",average);
+    printf("output is:%.2f\n",average);
     return 0; 
 }   
