@@ -16,8 +16,13 @@ int main(){
         printf("%d\n",product);
     }
     else if(c=="/"){
+        if (b!=0){
         int Division=a/b;
         printf("%d\n",Division);
+    }
+        else{
+            printf("Division by zero");
+        }
     }
     else{
         printf("error");
