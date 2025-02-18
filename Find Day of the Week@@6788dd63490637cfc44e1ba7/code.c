@@ -2,29 +2,15 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a==1){
-        printf("Monday");
-    }
-    else if(a==2){
-        printf("Tuesday");
-    }
-    else if(a==3){
-        printf("Wednesday");
-    }
-    else if(a==4){
-        printf("Thursday");
-    }
-    else if(a==5){
-        printf("Friday");
-    }
-    else if(a==6){
-        printf("Saturday");
-    }
-    else if(a==7){
-        printf("Sunday");
-    }
-    else{
-        printf("Invalid");
-    }
+    switch(a){
+    case 1: Monday break;
+    case 2: Tuesday break;
+    case 3: Wednesday break;
+    case 4: Thursday break;
+    case 5: Friday break;
+    case 6: Saturday break;
+    case 7: Sunday break;
+    default:Invalid;
+}
     return 0;
 }
