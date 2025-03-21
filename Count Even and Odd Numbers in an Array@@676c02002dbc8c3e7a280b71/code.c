@@ -3,16 +3,17 @@ int main(){
     int n;
     scanf("%d",&n);
     int array[n];
-    int count=0;
+    int evencount=0;
+    int oddcount=0;
     for(int i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
     for(int i=0;i<n;i++){
         if(array[i]%2==0){
-            count++;
+            evencount++;
         }
         else{
-            count++;
+            oddcount++;
         }
     }
     printf("%d ",count);
