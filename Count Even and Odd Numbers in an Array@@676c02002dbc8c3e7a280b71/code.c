@@ -11,6 +11,9 @@ int main(){
         if(array[i]%2==0){
             count++;
         }
+        else{
+            count++;
+        }
     }
     printf("%d ",count);
     return 0;
