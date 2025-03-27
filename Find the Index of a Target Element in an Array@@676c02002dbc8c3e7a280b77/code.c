@@ -7,7 +7,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int found=0;
-    printf("%d ");
     for(int i=0;i<n;i++){
         if(arr[i]==1){
             printf("%d ",i);
