@@ -9,7 +9,7 @@ int main(){
     int found;
     for(int i=0;i<n;i++){
         if(found=1){
-            scanf("%d",&i);
+            printf("%d ",i);
         }
         else{
             printf("-1");
