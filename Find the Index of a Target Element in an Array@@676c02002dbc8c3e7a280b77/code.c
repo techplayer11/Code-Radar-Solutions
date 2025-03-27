@@ -6,9 +6,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int found;
+    int found=0;
     for(int i=0;i<n;i++){
-        if(found=1){
+        if(arr[i]==1){
             printf("%d ",i);
         }
         else{
