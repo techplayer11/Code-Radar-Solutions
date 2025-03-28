@@ -43,8 +43,7 @@ int main() {
     // Print results
     printf("%d");
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i], result[i]);
+        printf("Sum of digits of %d is %d\n", arr[i], result[i]);
     }
-
     return 0;
 }
