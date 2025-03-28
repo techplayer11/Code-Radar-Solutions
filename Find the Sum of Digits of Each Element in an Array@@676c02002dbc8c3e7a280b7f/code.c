@@ -5,13 +5,13 @@ void sumofdigits(int n,int arr[n],int result[]){
     if(num<0){
         num=-num;
     }
-    }
     int sum=0;
     while(num>0){
         sum+=num%10;
         num!=0;
     }
     result[i]=sum;
+}
 }
 int main(){
     int n;
