@@ -22,10 +22,12 @@ void sumofdigits(int n, int arr[], int result[]) {
 
 int main() {
     int n;
+    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     // Input validation
     if (n <= 0) {
+        printf("Invalid array size. Please enter a positive number.\n");
         return 1;
     }
 
@@ -41,9 +43,10 @@ int main() {
     sumofdigits(n, arr, result);
 
     // Print results
-    printf("%d");
+    printf("Sum of digits of each element:\n");
     for (int i = 0; i < n; i++) {
         printf("Sum of digits of %d is %d\n", arr[i], result[i]);
     }
+
     return 0;
 }
