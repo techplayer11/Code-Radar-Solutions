@@ -22,7 +22,6 @@ void sumofdigits(int n, int arr[], int result[]) {
 
 int main() {
     int n;
-    printf("Enter the number of elements: ");
     scanf("%d", &n);
 
     // Input validation
