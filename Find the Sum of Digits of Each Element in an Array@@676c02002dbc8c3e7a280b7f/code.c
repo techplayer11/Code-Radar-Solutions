@@ -44,7 +44,7 @@ int main() {
     // Print results
     printf(" ");
     for (int i = 0; i < n; i++) {
-        printf("Sum of digits of %d is %d\n", arr[i], result[i]);
+        printf("\n%d", arr[i], result[i]);
     }
 
     return 0;
