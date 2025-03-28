@@ -3,9 +3,9 @@ void sumofdigits(int n,int arr[n],int result[]){
     for(int i=0;i<n;i++){
         int num=arr[i];
         int sum=0;
-    }
     if(num<0){
         num=-num;
+    }
     }
     while(n>0){
         sum+=num%10;
@@ -20,9 +20,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d";&arr[i]);
     }
-    sumofdigits(n,arr[n],result[]);
+    sumofdigits(n,arr,result);
     for(int i=0;i<n;i++){
-        scanf("%d %d %d",&n,&arr[n],result[]);
+        printf("%d %d\n",arr[i],result[i]);
     }
     return 0;
 }
