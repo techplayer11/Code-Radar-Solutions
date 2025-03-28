@@ -40,9 +40,6 @@ int main() {
 
     // Calculate sum of digits
     sumofdigits(n, arr, result);
-
-    // Print results
-    printf("");
     for (int i = 0; i < n; i++) {
     printf("%d ",result[i]);
     }
