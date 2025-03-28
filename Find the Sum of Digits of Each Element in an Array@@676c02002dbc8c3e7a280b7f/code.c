@@ -1,0 +1,28 @@
+#include<stdio.h>
+void sumofdigits(int n;int arr[n];int result[]){
+    for(int i=0;i<n;i++){
+        int num=arr[i];
+        int sum=0;
+    }
+    if(num<0){
+        num=-num;
+    }
+    while(n>0){
+        sum+=num%10;
+        num!=0;
+    }
+    result[i]=sum;
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d";&arr[i]);
+    }
+    sumofdigits(n;arr[n];result[]);
+    for(int i=0;i<n;i++){
+        scanf("%d %d %d",&n,&arr[n],result[]);
+    }
+    return 0;
+}
