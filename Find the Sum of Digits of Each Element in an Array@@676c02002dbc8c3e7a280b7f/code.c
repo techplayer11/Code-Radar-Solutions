@@ -6,7 +6,7 @@ void sumofdigits(int n,int arr[n],int result[]){
         num=-num;
     }
     }
-    while(n>0){
+    while(num>0){
         int sum+=num%10;
         num!=0;
     }
