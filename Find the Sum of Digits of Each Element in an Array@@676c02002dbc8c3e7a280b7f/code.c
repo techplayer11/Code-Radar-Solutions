@@ -15,20 +15,18 @@ void sumofdigits(int n, int arr[], int result[]) {
 }
 int main() {
     int n;
-    printf("Enter the number of elements: ");
     scanf("%d", &n);
     if (n <= 0) {
-        printf("Invalid array size. Please enter a positive number.\n");
         return 1;
     }
     int arr[n];   
     int result[n];   
-    printf("Enter %d elements:\n", n);
+    printf("%d", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     sumofdigits(n, arr, result);
-    printf("Sum of digits of each element:\n");
+    printf("%d\n");
     for (int i = 0; i < n; i++) {
         printf("%d\n", arr[i], result[i]);
     }
