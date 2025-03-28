@@ -42,7 +42,7 @@ int main() {
     sumofdigits(n, arr, result);
 
     // Print results
-    printf(" ");
+    printf("");
     for (int i = 0; i < n; i++) {
     printf("%d -> %d\n", arr[i], result[i]);
     }
