@@ -26,9 +26,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     sumofdigits(n, arr, result);
-    printf("%d\n");
+    printf("%d");
     for (int i = 0; i < n; i++) {
-        printf("%d\n", arr[i], result[i]);
+        printf("%d", arr[i], result[i]);
     }
     return 0;
 }
