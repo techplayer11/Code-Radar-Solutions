@@ -2,13 +2,12 @@
 void sumofdigits(int n,int arr[n],int result[]){
     for(int i=0;i<n;i++){
         int num=arr[i];
-        int sum=0;
     if(num<0){
         num=-num;
     }
     }
     while(n>0){
-        sum+=num%10;
+        int sum+=num%10;
         num!=0;
     }
     result[i]=sum;
