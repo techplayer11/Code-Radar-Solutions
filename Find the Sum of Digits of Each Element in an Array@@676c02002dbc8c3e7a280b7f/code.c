@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sumofdigits(int n;int arr[n];int result[]){
+void sumofdigits(int n,int arr[n],int result[]){
     for(int i=0;i<n;i++){
         int num=arr[i];
         int sum=0;
@@ -20,7 +20,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d";&arr[i]);
     }
-    sumofdigits(n;arr[n];result[]);
+    sumofdigits(n,arr[n],result[]);
     for(int i=0;i<n;i++){
         scanf("%d %d %d",&n,&arr[n],result[]);
     }
