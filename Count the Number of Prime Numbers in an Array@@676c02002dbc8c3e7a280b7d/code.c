@@ -14,7 +14,7 @@ int main(){
             found=0;
         }
         else{
-            for(int j=2;j*j<num;j++){
+            for(int j=2;j*j<=num;j++){
                 if(num%j==0){
                     found=0;
                     break;
