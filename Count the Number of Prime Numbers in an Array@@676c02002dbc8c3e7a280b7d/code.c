@@ -6,13 +6,9 @@ int main(){
     for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
     }
-     
     int count;
-    for(int i=3;i*i<n;i++){
-        if(n==1 || n==2){
-        count++;
-    }
-        else if(n%i!=0){
+    for(int i=2;i*i<n;i++){
+        if(n%i!=0){
             count++;
         }
         printf("%d",count);
