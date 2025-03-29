@@ -9,7 +9,7 @@ int main(){
     int count;
     for(int i=0;i<n;i++){
         int num=arr[i];
-        int found=1;
+        int found;
         if(num<2){
             found=0;
         }
