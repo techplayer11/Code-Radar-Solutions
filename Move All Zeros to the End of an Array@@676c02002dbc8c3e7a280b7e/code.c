@@ -6,7 +6,7 @@ int main(){
         for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         }
-        int temp,k=n-1,i,j;
+        int temp,k=n-2,i,j;
         while(k>0){
             temp=arr[n-1];
             for(i=n-2;i>=0;i--){
