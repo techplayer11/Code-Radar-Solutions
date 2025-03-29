@@ -10,12 +10,12 @@ int main(){
     for(int i=0;i<n;i++){
         int num=arr[i];
         int found=1;
-        if(n<2){
+        if(num<2){
             found=0;
         }
         else{
-            for(int i=2;i*i<n;i++){
-                if(n%i==0){
+            for(int i=2;i*i<num;i++){
+                if(num%i==0){
                     found=0;
                     break;
                 }
