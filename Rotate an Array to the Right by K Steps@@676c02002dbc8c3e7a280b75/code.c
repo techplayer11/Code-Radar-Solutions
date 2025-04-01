@@ -1,6 +1,6 @@
 #include<stdio.h>
-void reverse(int arr[],int n,int m){
-    for(int i=n,j=m;i<j;i++,j--){
+void reverse(int arr[],int si,int ei){
+    for(int i=si,j=ei;i<j;i++,j--){
     int temp=arr[i];
     arr[i]=arr[j];
     arr[j]=temp;
