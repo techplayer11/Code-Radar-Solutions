@@ -11,9 +11,6 @@ int main(){
             if(arr[i]%2==0){
                 found;
             }
-            else{
-                printf("-1");
-            }
             }
             int max=-1;
         for(int i=0;i<n;i++){
