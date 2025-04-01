@@ -11,8 +11,7 @@ int main(){
         int n;
         scanf("%d",&n);
         int arr[n];
-        int k;
-        scanf("%d",&k);
+        iacanf("%d",&k);
         k=k%n; 
         reverse(arr,0,n-1);
         reverse(arr,0,k-1);
