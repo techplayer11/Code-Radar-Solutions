@@ -10,7 +10,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]>k){
-            printf("%d ",arr[i]);
+            printf("%d ",i);
         }
     }
     printf("\n");
