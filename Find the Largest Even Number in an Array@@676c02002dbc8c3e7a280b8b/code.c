@@ -9,10 +9,7 @@ int main(){
         }
         int max=INT_MIN;
         for(int i=0;i<n;i++){
-            if(arr[i]%2!=0){
-                printf("-1");
-            }
-            else if(arr[i]%2==0 && arr[i]>max){
+            if(arr[i]%2==0 && arr[i]>max){
                  max=arr[i];
             }
         }
