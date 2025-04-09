@@ -14,7 +14,7 @@ int main(){
             else{
                 found=0;
             }
-            if(found=1){
+            if(found){
                 printf("YES");
             }
             else{
