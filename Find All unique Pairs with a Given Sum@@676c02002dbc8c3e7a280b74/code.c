@@ -14,7 +14,6 @@ int main(){
             if(arr[i]+arr[j]==t){
                 totalpairs++;
             }
-            printf("%d %d\n",arr[i],arr[j]);
         }
     }
     printf("%d",totalpairs);
