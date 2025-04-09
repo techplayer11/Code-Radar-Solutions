@@ -17,6 +17,6 @@ int main(){
             }
         }     
     }
-    printf(":%d\n",totalpairs);
+    printf("%d\n",totalpairs);
     return 0;
 }
