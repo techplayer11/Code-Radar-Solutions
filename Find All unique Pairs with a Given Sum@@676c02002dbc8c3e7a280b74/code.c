@@ -13,7 +13,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==t){
                 totalpairs++;
-                break
+                break;
             printf("%d %d\n",arr[i],arr[j]);
             }
         }     
