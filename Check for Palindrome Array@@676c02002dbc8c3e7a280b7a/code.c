@@ -6,6 +6,7 @@ int main(){
         for(int i=0;i<n;i++){
          scanf("%d",&arr[i]);
         }
+        int found=0;
         for(int i=0;i<n;i++){
             if(arr[i]==arr[n-i-1]){
                 found=1;
