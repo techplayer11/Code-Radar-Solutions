@@ -15,8 +15,9 @@ int main(){
                 totalpairs++;
             }
         }
+            printf("%d %d\n",arr[i],arr[j]);
     }
-           printf("%d %d\n",arr[i],arr[j]);
+       
     printf("%d",totalpairs);
     return 0;
 }
