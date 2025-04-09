@@ -9,17 +9,17 @@ int main(){
         int found=0;
         for(int i=0;i<n;i++){
             if(arr[i]==arr[n-i-1]){
-                found=1;
+                 found=1;
             }
             else{
                 found=0;
             }
-        }
-        if(found=1){
-            printf("YES");
-        }
-        else{
-            printf("NO");
-        }
+            if(found=1){
+                printf("YES");
+            }
+            else{
+                printf("NO");
+            }
         return 0;
+    }
 }
