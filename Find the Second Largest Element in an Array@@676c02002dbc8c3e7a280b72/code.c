@@ -20,7 +20,7 @@
                 smax=arr[i];
             }
         }
-        if(smax=INT_MIN){
+        if(smax==INT_MIN){
             printf("%d");
         }
         else{
