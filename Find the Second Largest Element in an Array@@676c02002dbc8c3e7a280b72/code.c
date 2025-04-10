@@ -18,7 +18,7 @@
             if(arr[i]>smax && arr[i]<max){
                 smax=arr[i];
             }
-            else if(arr[i]<0 && arr[i]<max){
+            else if(arr[i]<0 && arr[i]<max && arr[i]>smax){
                 smax=arr[i];
             }
         }
