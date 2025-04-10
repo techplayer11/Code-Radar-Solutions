@@ -15,6 +15,9 @@ int main(){
             num/=10;
         }
     }
-    printf("%d",sum);
+    for(int i=0;i<N;i++){
+       printf("%d",sum[i]);
+    }
+    printf("\n");
     return 0;
 }
