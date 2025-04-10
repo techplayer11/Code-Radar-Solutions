@@ -18,7 +18,9 @@
             if(arr[i]>smax && arr[i]<max){
                 smax=arr[i];
             }
-            else if(arr[i]<0 && arr)
+            else if(arr[i]<0 && arr[i]<max){
+                smax=arr[i];
+            }
         }
         printf("%d",smax);
         return 0;
