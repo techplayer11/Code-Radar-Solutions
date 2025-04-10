@@ -21,7 +21,7 @@
             }
         }
         if(smax=INT_MIN){
-            printf(" ");
+            printf("%d");
         }
         else{
         printf("%d",smax);
