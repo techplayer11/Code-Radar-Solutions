@@ -11,7 +11,7 @@ int main(){
         int num=arr[i];
         sum[i]=0;
         while(num!=0){
-            sum+=num%10;
+            sum[i]+=num%10;
             num/=10;
         }
     }
