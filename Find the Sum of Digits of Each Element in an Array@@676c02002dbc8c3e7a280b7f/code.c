@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int num=arr[i];
+        int num=abs(arr[i]);
         sum[i]=0;
         while(num!=0){
             sum[i]+=num%10;
