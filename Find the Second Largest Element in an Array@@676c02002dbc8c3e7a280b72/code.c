@@ -22,4 +22,3 @@
         printf("%d",smax);
         return 0;
     }
-
