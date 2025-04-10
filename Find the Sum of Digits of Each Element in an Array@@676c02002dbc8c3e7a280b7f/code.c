@@ -15,7 +15,7 @@ int main(){
             num/=10;
         }
     }
-    for(int i=0;i<N;i++){
+    for(int i=0;i<n;i++){
        printf("%d",sum[i]);
     }
     printf("\n");
